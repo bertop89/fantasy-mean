@@ -1,0 +1,4 @@
+<select ng-model="search.team">
+  <option value="">All EPL teams</option>
+  <option ng-repeat="eplteam in eplteams" value="{{ $index }}">{{ eplteam.team }}</option>
+</select>

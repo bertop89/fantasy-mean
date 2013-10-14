@@ -7,6 +7,9 @@ lib-cov
 *.pid
 *.gz
 
+fantasy.sublime-workspace
+fantasy.sublime-project
+
 pids
 logs
 results
